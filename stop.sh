@@ -1,0 +1,1 @@
+killall S3_ARServer_Kitura

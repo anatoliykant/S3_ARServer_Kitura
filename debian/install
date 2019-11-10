@@ -1,0 +1,3 @@
+.build/							usr/src/S3_ARServer_Kitura
+terraform/scripts/install.sh	usr/src/S3_ARServer_Kitura
+terraform/scripts/start.sh		usr/src/S3_ARServer_Kitura
