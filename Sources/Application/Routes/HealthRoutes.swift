@@ -10,6 +10,5 @@ func initializeHealthRoutes(app: App) {
         } else {
             respondWith(nil, RequestError(.serviceUnavailable, body: health.status))
         }
-    }
-    
+    }    
 }

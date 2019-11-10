@@ -23,6 +23,12 @@ public class App {
     func postInit() throws {
         // Endpoints
         initializeHealthRoutes(app: self)
+
+        router.all("/public", 
+            middleware: StaticFileServer())
+	    router.all("/pikachu",
+            middleware: StaticFileServer(
+                path: "/Users/kant/Documents/Develop/Courses/S3/Part4_ARServer/2019.11.10/S3_ARServer_Kitura/public/Pikachu"))
     }
 
     public func run() throws {
