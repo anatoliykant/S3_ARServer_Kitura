@@ -82,3 +82,10 @@ fastlane/test_output
 # Project files
 
 nohup.out
+
+# Images
+
+*.jpg
+*.jpeg
+*.png
+/public/uploads
